@@ -1,0 +1,4 @@
+name = "Joseph Kouadio"
+SID = "3039666021"
+email = "joseph.kouadio@berkeley.edu"
+github_name = "Josephmarie"
