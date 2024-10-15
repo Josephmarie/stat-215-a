@@ -1,0 +1,135 @@
+This file details your grade.
+Penalties for tardiness and other inconsistencies will be applied separately.
+The highest possible score on the lab is 69 points. Pay attention to your total score relative to other students, rather than your absolute score out of 69.
+Each numerical score lists the mean, median, and maximum score among all students in the class.
+Feel free to come to OH or ask privately (or publicly) on Ed to discuss your grade.
+I recommend reading the feedback carefully. But if you would like a short summary with things to improve, try to plug this file into chatgpt or something and ask it to tell you what to improve in the future. It should do an ok job (though it might occasionally contradict my instructions...).
+---------------------------------
+TOTAL: 27.5 (mean: 48.7, median: 49.0, max: 64.0)
+---------------------------------
+SUBSCORES
+SKELETON AND STRUCTURE: 1 (mean: 3.325, median: 3.5, max: 4.0)
+CODING: 1 (mean: 3.6, median: 4.0, max: 5.0)
+REPRODUCIBILITY: 2 (mean: 2.95, median: 3.0, max: 4.0)
+DATA CLEANING: 8 (mean: 13.9, median: 14.0, max: 18.0)
+DC+EDA FIGS: 1 (mean: 3.75, median: 4.5, max: 6.0)
+FINDINGS: 7 (mean: 11.0, median: 11.0, max: 15.0)
+REALITY CHECK: 3 (mean: 3.525, median: 3.75, max: 4.5)
+STABILITY CHECK: 1.5 (mean: 3.0, median: 3.0, max: 4.5)
+WRITING: 3 (mean: 3.65, median: 3.5, max: 5.0)
+---------------------------------
+SKELETON
+run.sh: 0 (mean: 0.85, median: 1.0, max: 1.0)
+environment.yaml: 1 (mean: 0.95, median: 1.0, max: 1.0)
+no-rename: 1 (mean: 0.6, median: 1.0, max: 1.0)
+lab1.tex (need this or ipynb): 0 (mean: 0.5, median: 0.5, max: 1.0)
+lab1.ipynb (need this or tex): 0 (mean: 0.6, median: 1.0, max: 1.0)
+clean.py: 0 (mean: 0.7, median: 1.0, max: 1.0)
+---------------------------------
+REPORT
+No name: 0 (mean: 0.85, median: 1.0, max: 1.0)
+under 12pg: 0 (mean: 0.85, median: 1.0, max: 1.0)
+No code: 0 (mean: 0.95, median: 1.0, max: 1.0)
+---------------------------------
+DATA CLEANING CODE
+clean_data() exists: 0 (mean: 0.9, median: 1.0, max: 1.0)
+clean_data() separate file: 0 (mean: 0.9, median: 1.0, max: 1.0)
+clean_data() name: 0 (mean: 0.7, median: 1.0, max: 1.0)
+clean_data() i/o df: 0 (mean: 0.7, median: 1.0, max: 1.0)
+clean_data() used: 0 (mean: 0.85, median: 1.0, max: 1.0)
+clean.py/clean_data() for findings: 0 (mean: 0.6, median: 1.0, max: 1.0)
+---------------------------------
+CODE STYLE
+comments (0-2): 1 (mean: 1.3, median: 1.0, max: 2.0)
+docstrings (0-1): 0 (mean: 0.35, median: 0.0, max: 1.0)
+style (0-1): 1 (mean: 0.9, median: 1.0, max: 1.0)
+comments:
+Comments missing in some places. The notebook producing all of your results shouldn’t be named lab1-template-nb.ipynb. 
+PR0:
+Yes, the coding style is consistent and well documented. 
+PR1:
+Yes, the code is easy to read and has comments explaining what code is doing. I wouldn't say it is well documented and it does not have doc strings. I'd also appreciate if the author had organized the code. 
+---------------------------------
+REPRODUCIBILITY
+Clear how to produce results: 0 (mean: 0.65, median: 1.0, max: 1.0)
+environment.yaml sufficient: 0 (mean: 0.7, median: 1.0, max: 1.0)
+No hardcoded paths outside lab1 folder: 1 (mean: 0.65, median: 1.0, max: 1.0)
+results reproduce w/o error: 1 (mean: 0.95, median: 1.0, max: 1.0)
+comments:
+Unintuitive that lab1-template-nb.ipynb is what produces results. environment.yaml missing statsmodels, seaborn. 
+---------------------------------
+DATA
+Data collection description (0-2): 2 (mean: 1.55, median: 2.0, max: 2.0)
+Quality of data cleaning (1-4): 1 (mean: 2.85, median: 3.0, max: 4.0)
+Level of detail / transparency of data cleaning (1-3): 1 (mean: 2.55, median: 3.0, max: 3.0)
+Comments: Data cleaning superficial. Incomplete description of data cleaning steps taken 
+PR0:
+The data cleaning section is very simple with only 1-2 sentences for each step. Some details are not illustrated clear enough (e.g., how the NAs are dropped) 
+PR1:
+No, the author included the process of data cleaning but didn't explain in details. For example, the author decided to drop the missing values instead of replacing the values. I'd appreciate if the author had justified why it was okay to drop them. 
+---------------------------------
+DC+EDA FIGURES
+Relevance of DC+EDA figures (0-2): 1 (mean: 1.6, median: 2.0, max: 2.0)
+Quality of DC+EDA figures (0-4): 0 (mean: 2.15, median: 2.5, max: 4.0)
+comments:
+One figure included, but it is not possible to glean anything from it. It should have been a bar plot instead of a line plot, and maybe focused on the most/least missing variables. 
+PR1a:
+Yes, the author showed a figure displaying the percentage of missing values per column. 
+PR1b:
+Not great, the labels were overlapping with no caption and axes labeled. I don't find the visual to be appealing. I would recommend creating a bar chart, then tilt the column names vertically so that all column names are displayed. I'd make the figure size wider, and add the axes labels and caption below. 
+---------------------------------
+FINDING 1
+Finding 1 Creativeness/interestingness (0-3): 2 (mean: 1.95, median: 2.0, max: 3.0)
+Finding 1 quality of figure (0-3): 1 (mean: 1.85, median: 2.0, max: 3.0)
+comments:
+I don’t see evidence for the finding in the figure or code outputs. Figure labels should not be numbers. 
+PR1:
+The figure was good and concise. I could understand what the figure was trying to tell. However, it would've been better if the legends had more descriptive labels, and change the variables on x-axis with a more meaningful name than just (1, 0), (1,1)..etc.  
+---------------------------------
+FINDING 2
+Finding 2 Creativeness/interestingness (0-3): 1 (mean: 1.85, median: 2.0, max: 3.0)
+Finding 2 quality of figure (0-3): 1 (mean: 1.75, median: 2.0, max: 3.0)
+comments:
+Somewhat redundant with the previous finding, and not much analysis. 
+PR1:
+If I'm not mistaken, I think this finding is redundant to finding 1. Also, the label names and caption is confusion. I didn't really get what the bar chart was showing or what the difference between this and finding 1 was. 
+---------------------------------
+FINDING 3
+Finding 3 Creativeness/interestingness (0-3): 1 (mean: 1.65, median: 2.0, max: 3.0)
+Finding 3 quality of figure (0-3): 1 (mean: 1.95, median: 2.0, max: 3.0)
+comments:
+Finding is not well-motivated (is 90% really "better" than 98%? What if the Fellow has a hgh false negative rate?). Figure labels should not be numbers. Should have excluded CTDone=0 as it doesn't really add anything here. 
+PR1:
+This finding was interesting. The figure is concise, but again, it would've been nicer if the caption and labels were named more clearly. 
+---------------------------------
+REALITY CHECK
+Relevance of reality check (0-3): 2 (mean: 2.35, median: 2.5, max: 3.0)
+comments:
+writing sounds like chatgpt. 
+PR0:
+Yes, the reality check was convincing and clearly described. 
+PR1:
+The author put a nice reality check and reasonably explained their findings. However, it would've been nicer if the author had descriptive evidence for making a statement, such as replacing "low" with actual percentage. Personally, I wouldn't consider 13% (for requiring surgery) or 8% (ciTBI) to be low percentage. If the author had included the actual number from their experiment to the statement, the readers might get a clearer takeaway from this section. 
+---------------------------------
+STABILITY CHECK
+Relevance of stability check (0-3): 1 (mean: 2.0, median: 2.0, max: 3.0)
+comments:
+Plots available, but no explanation or discussion 
+PR1:
+Yes, it was relevant to the finding 3 and it was interesting to see that even after introducing noise, PA's recommendation is strongly correlated to identifying TBI from CT scans. 
+---------------------------------
+WRITING
+Readability of report (narrative flow, detail, depth, etc) (0-4): 2 (mean: 3.0, median: 3.0, max: 4.0)
+comments:
+sounds like chatgpt. Especially the second person in sentences like "The methods you used to analyze the data..."? 
+PR0:
+The overall readability of report is okay, but the data section is a little bit hard to follow as the content is written by points. 
+PR1:
+Although the report was well organized with sections and subsections, there were minor mistakes in grammar, and the report had incomplete structure. For example, including "Please correct me if I have gone wrong..." or "Source: PECARN, focusing on acute injuries and illnesses in children" within the paragraph degraded the quality and flow of the narrative. 
+---------------------------------
+REALMS
+Discussed three realms? (0-1): 1 (mean: 0.65, median: 1.0, max: 1.0)
+---------------------------------
+ADDITIONAL COMMENTS
+PR0:
+I would suggest to not include the coding part in the report PDF file as it was a little bit confusing to the readers. 
