@@ -1,0 +1,15 @@
+method: grid
+metric:
+  goal: maximize
+  name: best_val_accuracy
+parameters:
+  feature_set:
+    values: ["all", "raw_only", "engineered_only"]
+  image_augmentation:
+    values: [true, false]
+  max_epochs:
+    value: 100
+  patience:
+    value: 10
+  batch_size:
+    value: 16
