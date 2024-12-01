@@ -1,0 +1,236 @@
+This file details your lab2 grade.
+Penalties for tardiness and other inconsistencies will be applied separately.
+The highest possible score on the lab is 68 points.
+Pay attention to your total score relative to other students, rather than your absolute score out of 68.
+Each numerical score lists the mean, median, and maximum score among all students in the class.
+If you would like a short summary with things to improve,
+try to plug this file into chatgpt or something and ask it to tell you what to improve in the future.
+It should do an ok job, though it might occasionally contradict my instructions....
+
+I recommend reading the feedback carefully.
+Feel free to come to OH or ask privately (or publicly) on Ed to discuss your grade.
+
+- Anthony
+
+================================================================================
+TOTAL:
+20 (mean: 46.7, median: 47.5, max: 63.0, sd: 9.8)
+===================================SUBSCORES====================================
+SKELETON AND REPORT:
+6 (mean: 7.2, median: 7.0, max: 8.0)
+CODING:
+2 (mean: 2.9, median: 3.0, max: 4.0)
+REPRODUCIBILITY:
+2 (mean: 2.9, median: 3.0, max: 4.0)
+DATA CLEANING:
+1 (mean: 2.5, median: 3.0, max: 4.0)
+EDA:
+1 (mean: 6.7, median: 7.0, max: 10.0)
+BINARY ENCODING AND PREPROCESSING:
+0 (mean: 1.9, median: 2.0, max: 4.0)
+DIMENSION REDUCTION:
+2 (mean: 5.9, median: 6.0, max: 8.0)
+CLUSTERING:
+5 (mean: 10.1, median: 11.0, max: 15.0)
+STABILITY CHECK:
+0 (mean: 2.7, median: 3.0, max: 4.0)
+DISCUSSION:
+0 (mean: 1.4, median: 2.0, max: 2.0)
+WRITING:
+1 (mean: 2.5, median: 2.0, max: 4.0)
+====================================SKELETON====================================
+run.sh:
+1 (mean: 1.0, median: 1.0, max: 1.0)
+environment.yaml:
+1 (mean: 0.9, median: 1.0, max: 1.0)
+no-rename:
+0 (mean: 0.8, median: 1.0, max: 1.0)
+lab2.tex (need this or ipynb):
+0 (mean: 0.6, median: 1.0, max: 1.0)
+lab2.ipynb (need this or tex):
+1 (mean: 0.7, median: 1.0, max: 1.0)
+=====================================REPORT=====================================
+No name:
+1 (mean: 1.0, median: 1.0, max: 1.0)
+under 12pg:
+1 (mean: 1.0, median: 1.0, max: 1.0)
+No code:
+1 (mean: 1.0, median: 1.0, max: 1.0)
+===================================CODE STYLE===================================
+comments (0-2):
+2 (mean: 1.7, median: 2.0, max: 2.0)
+docstrings (0-1):
+0 (mean: 0.4, median: 0.0, max: 1.0)
+style (0-1):
+0 (mean: 0.7, median: 1.0, max: 1.0)
+GSI comments:
+  Good comments, but no modularity in code (no functions or separate files or
+  anything) 
+PR0:
+  The code was well commented and it was pretty easy to follow the train of
+  thought. There were a lot of print statements and vignettes with little code:
+  maybe it makes sense to group the code better in more coherent ways that would
+  make it easier to follow. 
+================================REPRODUCIBILITY=================================
+Clear how to produce results:
+0 (mean: 0.7, median: 1.0, max: 1.0)
+environment.yaml works and is sufficient:
+1 (mean: 0.6, median: 1.0, max: 1.0)
+No hardcoded absolute paths:
+1 (mean: 0.9, median: 1.0, max: 1.0)
+results reproduce w/o error:
+0 (mean: 0.7, median: 1.0, max: 1.0)
+GSI comments:
+  run.sh doesn't do anything. question_data.Rdata does not exist (it should
+  refer to .Rdata). Missing matplotlib import 
+PR0:
+  Everything was done on a Jupyter notebook which does seem to show easy reprod 
+======================================DATA======================================
+Address missing or incorrect location variables (0-1):
+1 (mean: 0.9, median: 1.0, max: 1.0)
+Address unanswered survey questions (0-1):
+0 (mean: 0.6, median: 1.0, max: 1.0)
+Discuss problems with data collection (e.g. sampling bias, data entry issues) (0-1):
+0 (mean: 0.4, median: 0.0, max: 1.0)
+Good justifications (0-1):
+0 (mean: 0.6, median: 1.0, max: 1.0)
+Comments:
+No explanation of the choice to remove rows with all missing values, or any discussion of data cleaning in the report. 
+PR0:
+  The cleaning of the data was not described in great detail. In fact, no
+  mention of city or state inconsistencies were mentioned. 
+======================================EDA=======================================
+Relevance of EDA figures (0-2):
+0 (mean: 1.7, median: 2.0, max: 2.0)
+Quality of EDA figures (0-3):
+0 (mean: 1.8, median: 2.0, max: 3.0)
+Written comparison (0-2):
+1 (mean: 1.6, median: 2.0, max: 2.0)
+GSI comments:
+  I don't see any evidence of what you write. 
+PR0a (discuss it; what might you do differently?):
+  There is no discussion on two survey questions in detail. Questions are just
+  reported in passing with no in depth visualisation. 
+PR0b (like about figures):
+  The geographical map showed the origin of points. 
+PR0c (how to improve figures):
+  A map that was focused on the US would have been more useful. 
+Do the answers to the two questions define any distinct geographical groups? (qualitative) (0-1):
+0 (mean: 0.9, median: 1.0, max: 1.0)
+Does a response to one question help predict the other? (quantitative) (0-1):
+0 (mean: 0.4, median: 0.0, max: 1.0)
+Try to analyze the categorical data for more than 2 questions (0-1):
+0 (mean: 0.3, median: 0.0, max: 1.0)
+=======================BINARY ENCODING AND PREPROCESSING========================
+Transform categorical data to binary (0-1):
+0 (mean: 0.9, median: 1.0, max: 1.0)
+Discuss why binary is necessary (0-1):
+0 (mean: 0.2, median: 0.0, max: 1.0)
+Discuss centering/scaling, with correct interpretation (0-1):
+0 (mean: 0.6, median: 1.0, max: 1.0)
+Justify choice of k or k-1:
+0 (mean: 0.2, median: 0.0, max: 1.0)
+GSI comments:
+  Only transformed a couple questions to binary. Discussion of centering and
+  scaling is not relevant to binary features. 
+==============================DIMENSION REDUCTION===============================
+Relevance of figs (0-2), deduct 1 if no location info shown:
+1 (mean: 1.7, median: 2.0, max: 2.0)
+Quality of figs (0-3):
+1 (mean: 1.9, median: 2.0, max: 3.0)
+Discussion (0-2):
+0 (mean: 1.6, median: 2.0, max: 2.0)
+More than 1 technique used e.g. PCA and non-PCA (0-1):
+0 (mean: 0.7, median: 1.0, max: 1.0)
+GSI comments:
+  Writing sounds like chatgpt. The figure doesn't relate to geography and is a
+  weird shape, also uses default plotly settings. Incorrect conclusion about PC1
+  and PC2 capturing most of the variance. Discussion mentions clusters but very
+  little clustering is apparent in the figure. 
+PR0a (discuss it; what might you do differently?):
+  PCA makes sense as a reduction technique. Centering and scaling were briefly
+  discussed and I think the arguments make choice 
+PR0b (like about figures):
+  There was a clear spatial representation of PC1 and PC2 
+PR0c (how to improve figures):
+  The elongated figure made it less appealing to look at for the clustering. 
+===================================CLUSTERING===================================
+Relevance of figs (0-2), deduct 1 if no location info shown:
+1 (mean: 1.7, median: 2.0, max: 2.0)
+Quality of figs (0-4):
+1 (mean: 2.4, median: 2.0, max: 4.0)
+Detail of writing (0-2):
+0 (mean: 1.6, median: 2.0, max: 2.0)
+GSI comments:
+  Inappropriate use of continuous color scheme for categorical cluster labels.
+  No geographic information shown. Discussion incorrectly interprets the figure
+  (are the clusters results really so distinct?). Good work explaining that the
+  choice of 3 clusters is arbitrary. 
+PR0a:
+  K means makes sense as a choice. The number of clusters is self-proclaimed
+  arbitrary and does not seem to really capture clean clusters 
+PR0b:
+  The plot visualises the groupings 
+PR0c:
+  Choice of labels was misleading with a range instead of a category. 
+Successfully tried ≥2 clustering methods:
+0 (mean: 0.8, median: 1.0, max: 1.0)
+Found groups/clusters related to location:
+0 (mean: 0.8, median: 1.0, max: 1.0)
+Discuss separation vs continuum:
+1 (mean: 0.7, median: 1.0, max: 1.0)
+Which questions drive the clustering/continuum?:
+0 (mean: 0.1, median: 0.0, max: 1.0)
+Discuss choice of #clusters:
+1 (mean: 0.9, median: 1.0, max: 1.0)
+Does math model behind dim reduction make sense for these clusters?:
+0 (mean: 0.2, median: 0.0, max: 1.0)
+Discuss +/- of method 1:
+1 (mean: 0.4, median: 0.0, max: 1.0)
+Discuss +/- of method 2:
+0 (mean: 0.5, median: 0.5, max: 1.0)
+================================STABILITY CHECK=================================
+Relevance and level of detail (0-2):
+0 (mean: 1.4, median: 1.5, max: 2.0)
+GSI comments:
+  No evidence of a stability check 
+PR0:
+  The discussion made sense, but the writer did not show the difference in
+  performance or discuss it in detail. 
+Dataset or preprocessing perturbation (0-1):
+0 (mean: 0.8, median: 1.0, max: 1.0)
+Algorithm or initialization perturbation (0-1):
+0 (mean: 0.5, median: 0.5, max: 1.0)
+===================================DISCUSSION===================================
+Is the data useful for future decision-making? (with reasoning discussing reliability) (0-1):
+0 (mean: 0.7, median: 1.0, max: 1.0)
+Come up with reality check (0-1):
+0 (mean: 0.7, median: 1.0, max: 1.0)
+====================================WRITING=====================================
+Readability of report (narrative flow, connection to domain, detail, depth, etc) (0-4):
+1 (mean: 2.5, median: 2.0, max: 4.0)
+ChatGPT-assigned score based on peer reviews  (not part of grade, just in case you are curious):
+2 (mean: 2.8, median: 3.0, max: 4.0)
+GSI comments:
+  Sounds like chatgpt. Very little flow. Many statements unsupported by
+  presented results or just don't make sense. e.g. why do you say "I will
+  examine the relationship between the selected questions using contingency
+  tables and statistical tests to determine whether one response can predict the
+  other" when that is not done in the report? Why are the "three key realms of
+  data science" you give so different from the ones given in the instructions?
+  Why do you say "The analysis revealed potential relationships between
+  different lexical choices, suggesting that certain terms may be used in
+  conjunction with others" when you do no analysis of multiple questions
+  together? There is a reason we don't let students use chatgpt to write for
+  them. 
+PR0a:
+  Grammar was okay. In terms of readability there were some capitalizations in
+  the sentences and different bullet points structures which make it a little
+  hard to follow at times. Clearly having headers and continuous paragraphs with
+  more sparse use of bullet points and lists would make sense to me. 
+PR0b:
+  The author employs a very collaborative voice making it feel like an
+  interesting exploration journey. However, again the bullet points, lists and
+  prompts that are left in the report make it seem a little less like a
+  narrative and more a checklist completion. 
+==============================ADDITIONAL COMMENTS===============================
