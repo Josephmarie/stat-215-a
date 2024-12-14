@@ -1,0 +1,30 @@
+We have all agreed on these attributions:
+
+Joseph worked on:
+- Introduction Writing
+- Feature Engineering
+- Logistic Regression
+- Stability
+- Posthoc
+- Checked overall document
+
+Vidhi worked on:
+- Data cleaning coding and writing
+- Train-test Split
+- Feature Engineering
+- Random Forest, LDA, and QDA
+- Stability
+
+Zihe worked on:
+- Feature Engineering
+- CNN
+- Model Evaluation
+- Stability
+- Posthoc
+
+Tianyu worked on:
+- EDA coding and writing
+- Feature Engineering
+- Neural Network
+- Reality check
+
