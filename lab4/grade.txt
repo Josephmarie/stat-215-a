@@ -1,0 +1,243 @@
+This file is your grade for lab 4. Your grade is the sum of your
+individual grade (based on collaboration) and the group grade.
+Penalties for tardiness and other inconsistencies will be applied separately.
+First you will see your total grade, then your individual grade, then your group grade.
+
+- Anthony
+
+TOTAL GRADE (0-64):
+51
+================================================================================
+Below is your lab4 individual grade penalty.
+It is in the form of a penalty to your individual grade, only
+applied if I learned there were substantial issues with your
+collaboration (or your group as a whole). Most students had
+a penalty of zero.
+
+================================================================================
+group:
+g3
+===================================PENALTIES====================================
+Total penalty:
+0 (mean: -1.1, median: 0)
+penalty for not submitting lab4 in individual repo {-1, 0}:
+0 (mean: -0.095, median: 0)
+collaboration penalty (-∞, 0]:
+0 (mean: -1, median: 0)
+====================================REVIEWS=====================================
+self-rating:
+5 (mean: 4.4, median: 4)
+rating from reviewer 1:
+3
+rating from reviewer 2:
+3
+rating from reviewer 3:
+3
+================================================================================
+Below is your lab4 group grade.
+The highest possible score on the lab is 64 points.
+Pay attention to your total score relative to other groups, rather than your absolute score out of 64.
+Each numerical score lists the mean, median, and maximum score among all students in the class.
+
+Note: the grade for the modeling section is based on the three best grades for different models.
+(so as to provide some benefit to groups who submitted a report with more than three models)
+
+I recommend reading the feedback carefully.
+Feel free to ask privately (or publicly) on Ed to discuss your grade.
+
+================================================================================
+TOTAL (0-64):
+51 (mean: 51, median: 51, max: 55, sd: 2.9)
+===================================SUBSCORES====================================
+SKELETON AND REPORT (0-9):
+9 (mean: 8.8, median: 9, max: 9)
+CODING (0-5):
+4 (mean: 3.2, median: 3, max: 4)
+REPRODUCIBILITY (0-5):
+4 (mean: 4, median: 4, max: 5)
+EDA (0-8):
+7 (mean: 7, median: 7, max: 7)
+FEATURE SELECTION AND ENGINEERING (0-8):
+3 (mean: 5.2, median: 5, max: 7)
+AUTOENCODER (0-9):
+6 (mean: 6, median: 6, max: 8)
+MODELING (0-20):
+18 (mean: 16, median: 17, max: 18)
+FINAL ASSESSMENT AND DISCUSSION (0-10):
+6 (mean: 6.2, median: 7, max: 8)
+====================================SKELETON====================================
+run.sh:
+1 (mean: 1, median: 1, max: 1)
+environment.yaml:
+1 (mean: 1, median: 1, max: 1)
+no-rename:
+1 (mean: 1, median: 1, max: 1)
+lab4.tex (need this or ipynb):
+1 (mean: 0.8, median: 1, max: 1)
+lab4.ipynb (need this or tex):
+0 (mean: 0, median: 0, max: 0)
+checkpoints:
+1 (mean: 1, median: 1, max: 1)
+collaboration.txt:
+1 (mean: 1, median: 1, max: 1)
+=====================================REPORT=====================================
+No name:
+1 (mean: 1, median: 1, max: 1)
+≤ 20pg:
+1 (mean: 1, median: 1, max: 1)
+No code:
+1 (mean: 1, median: 1, max: 1)
+===================================CODE STYLE===================================
+comments (0-2):
+1 (mean: 1.2, median: 1, max: 2)
+docstrings (0-2):
+2 (mean: 1.2, median: 1, max: 2)
+DNNs use config files (0-1):
+1 (mean: 0.8, median: 1, max: 1)
+comments:
+  Good use of docstrings. Some files, like cnn/assess_model.ipynb, lacking in
+  comments.
+================================REPRODUCIBILITY=================================
+Clear what does what (0-2):
+2 (mean: 1.6, median: 2, max: 2)
+DNN checkpoints provided (0-1):
+1 (mean: 1, median: 1, max: 1)
+environment.yaml works and is sufficient (0-1):
+0 (mean: 0.6, median: 1, max: 1)
+Code passes static checking (0-1):
+1 (mean: 0.8, median: 1, max: 1)
+comments:
+  Excellent idea to organizate code into folders. Environment.yaml has both
+  "torch" and "pytorch", also missing pyreadr
+======================================EDA=======================================
+plot maps of expert labels (0-1):
+1 (mean: 1, median: 1, max: 1)
+inspect distributions of variables across classes (0-1):
+1 (mean: 1, median: 1, max: 1)
+inspect relationships between radiances (0-1):
+0 (mean: 0.8, median: 1, max: 1)
+written detail (0-2):
+2 (mean: 1.8, median: 2, max: 2)
+EDA plots (0-3):
+3 (mean: 2.4, median: 2, max: 3)
+comments:
+  Violin plots are an excellent idea for comparing distributions between two
+  classes!
+=======================FEATURE SELECTION AND ENGINEERING========================
+Depth and discussion of feature selection (0-4):
+3 (mean: 3.2, median: 3, max: 4)
+Depth and discussion of manual feature engineering (0-4):
+0 (mean: 2, median: 2, max: 4)
+comments:
+  Good discussion of feature selection. Would have been good to try making
+  features by hand.
+==================================AUTOENCODER===================================
+Analysis of provided autoencoder features (0-2):
+0 (mean: 1, median: 1, max: 2)
+Evidence of experimentation (0-2):
+2 (mean: 2, median: 2, max: 2)
+Tried entirely new architecture (0-1):
+1 (mean: 0.8, median: 1, max: 1)
+Tried new loss function (0-1):
+1 (mean: 0.6, median: 1, max: 1)
+Analysis of new autoencoder features (0-2):
+2 (mean: 1.4, median: 2, max: 2)
+Demonstrate that you created better features than given (0-1):
+0 (mean: 0.2, median: 0, max: 1)
+comments:
+  You can't directly compare an autoencoder with RMSE and an autoencoder with
+  MAE based on their loss. Also, if your autoencoder minimizing MAE/RMSE is the
+  one with the smallest embedding dimension, you are probably doing something
+  wrong. Good idea to make plots of cloud vs not cloud in the latent space!
+======================================DATA======================================
+Discussion of data splitting (0-4):
+3 (mean: 3, median: 3, max: 4)
+Justify how you will deal with unlabeled points (0-1):
+0 (mean: 0, median: 0, max: 0)
+comments:
+  Great discussion! Would be even better if you somehow justified the choice of
+  images.
+=====================================MODELS=====================================
+1st highest model score (0-6):
+6 (mean: 5.8, median: 6, max: 6)
+2nd highest model score (0-6):
+6 (mean: 5, median: 5, max: 6)
+3rd highest model score (0-6):
+4 (mean: 3.6, median: 4, max: 5)
+model 1 name:
+logistic regression
+model 1 total score (0-6):
+4 (mean: 4.4, median: 4, max: 6)
+Justification/description of model 1 (0-3):
+2 (mean: 2, median: 2, max: 3)
+Clear what the inputs of model 1 are (0-1):
+1 (mean: 0.8, median: 1, max: 1)
+comments:
+  Great work, just would have been good to justify why logistic regression is a
+  good idea
+Depth of model 1 assessment (0-2):
+1 (mean: 1.6, median: 2, max: 2)
+model 2 name:
+random forest
+model 2 total score (0-6):
+6 (mean: 4.8, median: 5, max: 6)
+Justification/description of model 2 (0-3):
+3 (mean: 2.2, median: 2, max: 3)
+Clear what the inputs of model 2 are (0-1):
+1 (mean: 0.8, median: 1, max: 1)
+comments:
+  Awesome!
+Depth of model 2 assessment (0-2):
+2 (mean: 1.8, median: 2, max: 2)
+model 3 name:
+autogluon
+model 3 total score (0-6):
+6 (mean: 5.2, median: 5, max: 6)
+Justification/description of model 3 (0-3):
+3 (mean: 2.4, median: 2, max: 3)
+Clear what the inputs of model 3 are (0-1):
+1 (mean: 1, median: 1, max: 1)
+comments:
+  Would have been good to describe in more detail what the final models are. But
+  points for the great description of AutoGluon for people like me who are
+  unfamiliar :)
+Depth of model 3 assessment (0-2):
+2 (mean: 1.8, median: 2, max: 2)
+model 4 name (if applicable):
+CNN
+model 4 total score (0-6):
+4 (mean: 3, median: 3, max: 4)
+Justification/description of model 4 (0-3):
+2 (mean: 1.5, median: 1.5, max: 2)
+Clear what the inputs of model 4 are (0-1):
+1 (mean: 0.5, median: 0.5, max: 1)
+comments:
+  Great! Would have been good to give a little more detail about the
+  architecture though (e.g. kernel size, number of layers, number of channels,
+  etc.)
+Depth of model 4 assessment (0-2):
+1
+Assessment techniques consistent across models (0-2):
+2 (mean: 2, median: 2, max: 2)
+========================FINAL ASSESSMENT AND DISCUSSION=========================
+depth of exploration of patterns in misclassification errors (0-4):
+2 (mean: 2.4, median: 2, max: 4)
+comments:
+  Great discussion of differences across cloud and not cloud, and how class
+  imbalance might cause that. You don't really get much from Fig 17 that you
+  didn't already get from previous discussion. You should have gone into the
+  spatial patterns apparent. See how patchy the predictions are? Why is that?
+  Could something be done to make them less patchy and more accurate?
+discussion of generalizability to future data (0-3):
+1 (mean: 1.8, median: 2, max: 3)
+comments:
+  You selected the weighted ensemble based on its good performance on the test
+  set compared to the other models. In theory this selection method will bias
+  upwards your evaluation of your chosen model! This should be addressed in the
+  writing.
+mention or somehow address uncertainity in evaluation metrics (0-1):
+1 (mean: 0.6, median: 1, max: 1)
+idea for stability analysis (0-1):
+1 (mean: 0.8, median: 1, max: 1)
+Actually perform a stability analysis (!) (0-1):
+1 (mean: 0.6, median: 1, max: 1)
