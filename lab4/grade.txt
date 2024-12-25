@@ -5,8 +5,8 @@ First you will see your total grade, then your individual grade, then your group
 
 - Anthony
 
-TOTAL GRADE (0-64):
-51
+TOTAL GRADE (0-74):
+57
 ================================================================================
 Below is your lab4 individual grade penalty.
 It is in the form of a penalty to your individual grade, only
@@ -46,8 +46,8 @@ I recommend reading the feedback carefully.
 Feel free to ask privately (or publicly) on Ed to discuss your grade.
 
 ================================================================================
-TOTAL (0-64):
-51 (mean: 51, median: 51, max: 55, sd: 2.9)
+TOTAL (0-74):
+57 (mean: 57, median: 57, max: 62, sd: 3.7)
 ===================================SUBSCORES====================================
 SKELETON AND REPORT (0-9):
 9 (mean: 8.8, median: 9, max: 9)
